@@ -1,7 +1,12 @@
+import DestinationContainer from "./components/DestinationContainer"
+import './app.css'
+
+
 function App() {
   return (
     <div>
-      {/* Your code here */}
+      <h1 className="heading">Top Travel Destinations</h1>
+      <DestinationContainer/>
     </div>
   )
 }
